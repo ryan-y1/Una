@@ -1,0 +1,49 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>New Event</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+{/* <!--     <link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'> --> */}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" type="text/css" href="styles/event.css">    
+</head>    
+<body>    
+    <h2 style="font-size: 64px;">New Event</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php"> 
+        <label for="email" class="mailin" style="margin-bottom: 20px;">Suggest Activity</label>
+        <div class="control has-icons-left">
+          <input class="input is-large" id="email" type="email" placeholder="coffee, hike, soccer, shop...">
+          <span class="icon is-small is-left">
+            <i class='fas fa-seedling'></i>
+          </span>
+        </div>
+        <br><br>
+      <h2 style = "font-size:35px; font: nunito;color: #2F383C; padding-below:25px; padding-left: 0px;">Add Attendees</h2>
+    <div id="button-container" style="padding-bottom: 30px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; align-content: space-around; gap: 60px 20px;">
+    <button id="button-items" class="button is-large is-rounded">Ryan</button>
+    <button id="button-items" class="button is-large is-rounded">Franco</button>
+    <button id="button-items" class="button is-large is-rounded">Raj</button>
+    <button id="button-items" class="button is-large is-rounded">Kimmy</button>
+    <button id="button-items" class="button is-large is-rounded">Others</button>
+    </div>
+      <h2 style = "font-size:35px; font: nunito;color: #2F383C; padding-below:25px; padding-left: 0px;">Availability</h2>
+      <div id="day-container" style="padding-bottom: 30px; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; align-content: space-around; gap: 60px 20px;">
+    <button id="button-items" class="button is-large">S</button>
+    <button id="button-items" class="button is-large">M</button>
+    <button id="button-items" class="button is-large">T</button>
+    <button id="button-items" class="button is-large">W</button>
+    <button id="button-items" class="button is-large">Th</button>
+    <button id="button-items" class="button is-large">F</button>
+    <button id="button-items" class="button is-large">Sa</button
+    </div>
+        <input type="button" name="log" id="log" value="Send invites">                   
+
+    </form>     
+</div>    
+</body>    
+</html>
