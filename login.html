@@ -1,0 +1,42 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<!--     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link 
+    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+    rel="stylesheet"  type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/login.css">    
+</head>    
+<body>    
+    <h2 style="font-size: 64px;">Log In</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+      <!--         <label><b class = "mailin">Email Address </b></label>    
+        <input type="text" name="Uname" id="Uname" placeholder="enter your email address">
+        <br><br>    
+        <label><b class = "passin">Password</b></label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="enter your secure password">     -->
+        <label for="email" class="mailin">Email Address</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-large is-rounded" id="email" type="email" placeholder="Email">
+          <span class="icon is-small is-left">
+            <i class="fa fa-envelope"></i>
+          </span>
+        </p>
+        <label class = "passin" for="password">Password</label>
+        <p class="control has-icons-left has-icons-right">
+          <input class="input is-large is-rounded" id="password" type="password" placeholder="Password">
+          <span class="icon is-small is-left">
+            <i class="fa fa-lock"></i>
+          </span>
+        </p>
+        <br><br>    
+        <input type="button" name="log" id="log" value="Let's Go!">                   
+        <label style="font-size: 22px; padding-left: 160px; padding-top:25px; color:#818181;"><b>Don't have an account? <a class="forgot-pass" href="#">create one here</a></b></label>
+            
+    </form>     
+</div>    
+</body>    
+</html> 
