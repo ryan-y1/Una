@@ -1,0 +1,127 @@
+html {
+    height: 100vh;
+}
+body {
+    min-height: 100vh;
+    white-space: nowrap;
+}
+
+#sidebar{
+    min-width: 250px;
+    width: 27%;
+    max-width: 350px;
+    height: 101%;
+    position: fixed;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(228, 0, 69, 0.6) 0%, rgba(162, 102, 238, 0.6) 0.01%, rgba(0, 72, 211, 0.6) 100%), #FFFFFF;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+    border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -khtml-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    overflow-y: clip;
+}
+
+.menu-label{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px auto auto 10px !important;
+    padding: 0 5px;
+}
+
+.menu-divider {
+    font-size: xx-large;
+    font-weight: lighter;
+    margin: 10px auto -10px -5px !important;
+    padding: 0 5px;
+}
+
+.status-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(212 212 212 / 75%);
+    bottom: 8px;
+    right: 8px;
+    position: absolute;
+}
+
+.is-online {
+    background-color: #3ba45d;
+}
+
+.is-offline {
+    background-color: #ec4245;
+}
+
+.is-unknown {
+    background-color: #737E8CFF;
+}
+
+.friend-box {
+    width: 236px;
+    height: 62px;
+    display: block;
+    background: linear-gradient(180deg, rgba(22, 47, 129, 0.2) 0%, rgba(0, 0, 0, 0) 100%), rgba(156, 153, 234, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 15px auto;
+}
+
+.friend-box:hover {
+    background: linear-gradient(180deg, rgba(22, 47, 129, 0.4) 0%, rgba(0, 0, 0, 0) 100%), rgba(156, 153, 234, 0.6);
+}
+
+.friend-box-text {
+    position: relative;
+    left: 75px;
+    top: -45px;
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.new-event {
+    position: relative;
+    width: 230px;
+    height: 69px;
+    margin: auto;
+    line-height: 0;
+    border: 0;
+    background: linear-gradient(90.7deg, rgba(126, 54, 219, 0.6) -7.85%, rgba(0, 25, 254, 0.6) 92.55%), #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.new-event:hover {
+    background: linear-gradient(90.7deg, rgba(126, 54, 219, 0.8) -7.85%, rgba(0, 25, 254, 0.8) 92.55%), #FFFFFF;
+}
+
+.upcoming-event {
+    width: 290px;
+    height: 315px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    margin: 15px 5px;
+    display: inline-block;
+}
+
+.event-box-text {
+    position: relative;
+    padding: 40px 0 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    /*display: inline-block;*/
+}
