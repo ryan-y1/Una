@@ -1,0 +1,109 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#CBD0FB;  
+    font-family: 'Arial';  
+}  
+
+.login{  
+        width: 750px;  
+        height: 800px;
+        overflow: hidden;  
+        margin: auto;
+        margin: 20 0 0 450px;  
+        padding: 30px;
+        background: #FFFFFF;
+        border-radius: 55px 55px 0px 0px;
+        box-sizing: border-box;
+}  
+h2{  
+    text-align: center;  
+    
+  background: -webkit-linear-gradient(#7E36DBCC, #0019FECC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+    font: nunito;
+    font-size: 64px;
+    padding: 20px;  
+}  
+.mailin{
+  font-size: 35px;
+  font: nunito;
+  color: #2F383C;
+  padding-left: 25px;
+  padding-below:25px;
+}
+.passin{
+  font-size: 35px;
+  font: nunito;
+  color: #2F383C;
+  padding-left: 25px;
+  padding-below:25px;
+}
+.forgot-pass {
+  text-align: center;
+}
+
+label{  
+    color: #1E2126; 
+    font: nunito-regular;
+    font-size: 10px;
+    text-align: center;
+}  
+#Uname{  
+    width: 600px;  
+    height: 40px;  
+    border: none;
+    background-color: #EFEFEF;
+    box-shadow: 3px 4px 3px #322E2E;
+    border-radius: 40px;  
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 30px;  
+    
+}  
+#Pass{  
+    width: 600px;  
+    height: 40px;  
+    border: none;  
+    background-color: #EFEFEF;
+    box-shadow: 3px 4px 3px #322E2E;
+    border-radius: 40px;  
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 30px;
+}  
+::-webkit-input-placeholder {
+  color: #ACACAC;
+  font: nunito;
+  font-size: 40px;
+}
+
+#log{  
+    width: 300px;  
+    height: 70px; 
+    position: relative;
+    margin: 0 calc(50% - 140px);
+    border: none;  
+    border-radius: 100px;  
+    padding-bottom: 15px;  
+    background: -webkit-linear-gradient(#7E36DB99, #0019FE99);  
+    color: white;
+    font-size: 44px;
+    text-align: center;
+}  
+span{  
+    color: black;  
+    font-size: 17px;  
+a{  
+    font-size: 30px;
+    float: right;  
+    background-color: grey;  
+} 
+
+b{
+    font-size: 40px;
+  }
+  
