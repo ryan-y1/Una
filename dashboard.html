@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Una - Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+<aside class="menu" id="sidebar">
+    <figure class="image is-128x128" style="margin: 20px auto">
+        <img class="is-rounded" alt="Profile picture" src="https://bulma.io/images/placeholders/128x128.png">
+        <div class="status-circle is-online"></div>
+    </figure>
+    <div class="has-text-centered" style="width: 100%">
+        <button class="button" style="width: 125px; height: 40px; margin: 5px 0 5px 0">
+            <span class="icon is-small">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span style="font-size: large">Inbox</span>
+            <span class="status-circle is-offline" style="top: -8px; right: -8px; width: 15px; height: 15px;"></span>
+        </button>
+    </div>
+    <div class="menu-divider has-text-centered">
+        Friends
+    </div>
+    <ul>
+        <li>
+            <div class="friend-box">
+                <figure class="image is-48x48" style="top: 8px; left: 10px; position: relative;">
+                    <img class="is-rounded" alt="Profile picture" src="https://bulma.io/images/placeholders/48x48.png">
+                    <div class="status-circle is-online" style="width: 12px; height: 12px; right: 2px; bottom: 2px"></div>
+                </figure>
+                <div class="friend-box-text">
+                    <p class="title is-6">Ryan</p>
+                    <p class="subtitle is-7">Online</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="friend-box">
+                <figure class="image is-48x48" style="top: 8px; left: 10px; position: relative;">
+                    <img class="is-rounded" alt="Profile picture" src="https://bulma.io/images/placeholders/48x48.png">
+                    <div class="status-circle is-online" style="width: 12px; height: 12px; right: 2px; bottom: 2px"></div>
+                </figure>
+                <div class="friend-box-text">
+                    <p class="title is-6">Raj</p>
+                    <p class="subtitle is-7">Online</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="friend-box">
+                <figure class="image is-48x48" style="top: 8px; left: 10px; position: relative;">
+                    <img class="is-rounded" alt="Profile picture" src="https://bulma.io/images/placeholders/48x48.png">
+                    <div class="status-circle is-offline" style="width: 12px; height: 12px; right: 2px; bottom: 2px"></div>
+                </figure>
+                <div class="friend-box-text">
+                    <p class="title is-6">Kimmy</p>
+                    <p class="subtitle is-7">Offline</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="friend-box">
+                <figure class="image is-48x48" style="top: 8px; left: 10px; position: relative;">
+                    <img class="is-rounded" alt="Profile picture" src="https://bulma.io/images/placeholders/48x48.png">
+                    <div class="status-circle is-unknown" style="width: 12px; height: 12px; right: 2px; bottom: 2px"></div>
+                </figure>
+                <div class="friend-box-text">
+                    <p class="title is-6">Franco</p>
+                    <p class="subtitle is-7">Unknown</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <p class="menu-label has-icons-left has-text-centered" style="cursor: pointer; margin: 20px auto 20px -5px !important;">
+        <span class="icon is-small is-left">
+          <i class="fas fa-plus"></i>
+        </span>
+        Add Friends
+    </p>
+    <div class="has-text-centered">
+        <button class="new-event">
+            <span style="font-size: xx-large; color: white">New Event</span>
+        </button>
+    </div>
+</aside>
+<div style="float: right; justify-content: left; min-width: calc(1vw - 250px); width: 73%;">
+    <img src="FULL_LOGO_LIGHT_MODE.png" alt="Una logo" style="width: 299px; height: 130px; display: inline-block">
+    <h1 style="display: inline-block; float: right; margin: 25px 25px; font-size: 40px;"><b>Good Morning, HTV!</b></h1>
+</div>
+<h1 style="float: right; justify-content: left; min-width: calc(1vw - 250px); width: 70%; font-size: 30px; margin-left: 15px; display: block;">
+    Upcoming Events
+</h1>
+<hr style="width: 90%; height: 3px; float: right; color: black">
+<div style="float: right; justify-content: left; min-width: calc(1vw - 250px); width: 73%; height: 100%; overflow-x: auto;">
+    <div class="upcoming-event">
+        <div class="event-box-text">
+            <p class="title is-6" style="color: #6f42c1">Pumpkin Patch 🎃</p>
+            <p class="subtitle is-7" style="margin-bottom: 2px">October 22nd at 3:00 PM</p>
+            <hr style="height: 3px; margin-top: 5px">
+            <p class="subtitle is-7" style="margin-top: 5px">Location: 1234 Pumpkin Lane</p>
+            <ul style="margin-top: 5px; color: black; font-weight: normal;">
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Ryan</li>
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Raj</li>
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Kimmy</li>
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Franco</li>
+            </ul>
+        </div>
+    </div>
+    <div class="upcoming-event">
+        <div class="event-box-text">
+            <p class="title is-6" style="color: #6f42c1">Spooky Party 👻</p>
+            <p class="subtitle is-7" style="margin-bottom: 2px">October 22nd at 3:00 PM</p>
+            <hr style="height: 3px; margin-top: 5px">
+            <p class="subtitle is-7" style="margin-top: 5px">Location: 1234 Pumpkin Lane</p>
+            <ul style="margin-top: 5px; color: black; font-weight: normal;">
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Ryan</li>
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Raj</li>
+                <li><i class="fas fa-calendar-minus" style="color: #ffc720; margin: 5px"></i>Kimmy</li>
+                <li><i class="fas fa-calendar-times" style="color: red; margin: 5px"></i>Franco</li>
+            </ul>
+        </div>
+    </div>
+    <div class="upcoming-event">
+        <div class="event-box-text">
+            <p class="title is-6" style="color: #6f42c1">Hiking! 🥾</p>
+            <p class="subtitle is-7" style="margin-bottom: 2px">October 22nd at 3:00 PM</p>
+            <hr style="height: 3px; margin-top: 5px">
+            <p class="subtitle is-7" style="margin-top: 5px">Location: 1234 Pumpkin Lane</p>
+            <ul style="margin-top: 5px; color: black; font-weight: normal;">
+                <li><i class="fas fa-calendar-check" style="color: green; margin: 5px"></i>Ryan</li>
+                <li><i class="fas fa-calendar-minus" style="color: #ffc720; margin: 5px"></i>Raj</li>
+                <li><i class="fas fa-calendar-minus" style="color: #ffc720; margin: 5px"></i>Kimmy</li>
+                <li><i class="fas fa-calendar-minus" style="color: #ffc720; margin: 5px"></i>Franco</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
